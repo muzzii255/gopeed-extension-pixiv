@@ -1,0 +1,22 @@
+{
+  "name": "gopeed-extension-pixiv",
+  "author": "muzzii255",
+  "title": "Pixiv Downloader",
+  "description": "Download images from Pixiv artworks",
+  "icon": "icons/pixiv.png",
+  "version": "1.0.0",
+  "homepage": "https://github.com/muzzii255/gopeed-extension-pixiv",
+  "repository": {
+    "url": "https://github.com/muzzii255/gopeed-extension-pixiv"
+  },
+  "scripts": [
+    {
+      "event": "onResolve",
+      "match": {
+        "urls": ["*://www.pixiv.net/*/artworks/*", "*://pixiv.net/*/artworks/*"]
+      },
+      "entry": "dist/index.js"
+    }
+  ],
+  "settings": []
+}

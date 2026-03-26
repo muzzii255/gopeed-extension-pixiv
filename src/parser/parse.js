@@ -40,8 +40,8 @@ async function getImageUrls(url) {
       req: {
         url: imgUrl,
         header: {
-          referer: 'https://www.pixiv.net/',
-          'user-agent': headers['user-agent'],
+          ...headers,
+          referer: `https://www.pixiv.net/en/artworks/${artID}`,
         },
       },
     });

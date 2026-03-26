@@ -39,7 +39,7 @@ async function getImageUrls(url) {
       name: filename,
       req: {
         url: imgUrl,
-        header: {
+        headers: {
           ...headers,
           referer: `https://www.pixiv.net/en/artworks/${artID}`,
         },

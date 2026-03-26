@@ -2,7 +2,7 @@
   "name": "gopeed-extension-pixiv",
   "author": "muzzii255",
   "title": "Pixiv Downloader",
-  "description": "Download images from Pixiv artworks",
+  "description": "Download images from Pixiv artworks.",
   "icon": "icons/pixiv.png",
   "version": "1.0.0",
   "homepage": "https://github.com/muzzii255/gopeed-extension-pixiv",
